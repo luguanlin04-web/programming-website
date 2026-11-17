@@ -1,0 +1,92 @@
+body {
+    background-color: #fff8ed;
+    color: #333333;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    text-align: center;
+}
+h1 {
+    background-color: #c62828;
+    color: white;
+    padding: 3%;
+}
+h2 {
+    color: #333333;
+}
+h4 {
+    color: #333333;
+    padding: 10px;
+}
+p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+img {
+    max-width: 90%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+img:hover {
+    transform: scale(1.05);
+}
+nav {
+    background-color: #333333;
+    padding: 15px;
+}
+nav a {
+    color: white;
+    margin: 10px;
+}
+nav a:hover {
+    color: #ffcc80;
+}
+.home-title {
+    background-color: #fff8ed;
+    color: black;
+    padding: 1px;
+}
+.poutine-container {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 30px;
+}
+.poutine-text {
+    flex: 1;
+    text-align: left;
+}
+.poutine-picture {
+    flex: 1;
+    padding: 5px;
+}
+.poutine-picture img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.poutine-banner {
+    background-size: cover;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.gallery-intro {
+    padding: 50px 20px;
+    color: #444444;
+    font-size: 18px;
+}
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 40px 20px;
+    background-color: #fff8ed;
+}
+.gallery-item {
+    width: 28px;
+    min-width: 230px;
+    background-color: white;
+    padding: 15px;
+}
